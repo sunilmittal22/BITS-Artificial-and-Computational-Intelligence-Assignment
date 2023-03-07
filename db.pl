@@ -1,5 +1,5 @@
-defect(N, EvG, IvG, I,i, Loc, D, VG) :- N =< 1, !, write('TRUE').
-defect(N, EvG, IvG, I,i, Loc, D, VG) :- N > 1,
+defect(N, EvG, IvG, I, i, Loc, D, VG) :- N =< 1, !, write('TRUE').
+defect(N, EvG, IvG, I, i, Loc, D, VG) :- N > 1,
     (
     122.55 >= i ->
     (
